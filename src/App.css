@@ -1,0 +1,6 @@
+
+body{
+  background-image:  url('../src/another-layout/images/bg-header-desktop.png');
+  background-repeat: no-repeat ;
+  background-size: contain;
+}

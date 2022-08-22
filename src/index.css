@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  border: solid 1px;
+}
+@layer base {
+
+h3{
+  @apply mb-8 text-4xl font-bold text-gray-500;
+}
+
+}
+
+.button-container{
+  @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+}
+body{
+  background-image:  url('../src/another-layout/images/bg-header-desktop.png');
+  background-repeat: no-repeat ;
+  background-size: contain;
+}
+.section-container{
+  @apply max-w-6xl mx-auto text-center px-10;
+}
